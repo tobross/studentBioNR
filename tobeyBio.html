@@ -1,34 +1,40 @@
+<!-- CSS Stylesheets with Relative Paths -->
+
 <!DOCTYPE html>
-<html lang="us-en">
-    <head>
-      <title>Student Bio</title>
-    </head>
-    <body>
-      <h1>
-          Nathanial (Tobey) Ross
-      </h1>
-      <img src="ntrPic.jpg" alt="Tobey Silly Picture" height="500" length="600"> 
-        <p>
-            My name is Nathanial Ross or more preferably, Tobey. I am a new developer in training in the UT coding bootcamp.
-        </p>
-        <p>
-            I am currently working on a new class project in which I would like to have at least two paragraph tags.
-        </p>
-      <strong>
-          <h2>
-            Contact Info
-          </h2>
-          <ul>
-              <li>Email
-                  <a href="#"Tobross@gmail.com/>
-              </li>
-              <li>Github
-                  <a href="https://github.com/tobross"Tobross/>
-              </li>
-              <li>Portfolio
-                  <a href="#"Portfolio/>
-              </li>
-          </ul>
-      </strong>
-    </body>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>CSS Stylesheets with Relative Paths</title>
+</head>
+
+<body>
+  <header>
+    <h1>Tobey Bio</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Tobey</h2>
+
+      <img id="bio-image" src="ntrPic.jpg" alt="Tobey">
+
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">tobross@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">tobross</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">Tobey's Portfolio</a></li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+
 </html>
